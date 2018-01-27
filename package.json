@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://gitlab.com/florianm93/nightwatch-playground/issues"
   },
-  "homepage": "https://gitlab.com/florianm93/nightwatch-playground#README"
+  "homepage": "https://gitlab.com/florianm93/nightwatch-playground#README",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }

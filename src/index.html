@@ -1,0 +1,20 @@
+<html>
+	<head>
+			<title>Simple Test for nightwatch</title>
+	</head>
+	<body>
+		<div id="somediv">Welcome</div>	
+		<input type="text" id="tb1" value="text1" /> 
+		<input type="text" id="tb2" value="text2" /> 
+		<input type="button" id="btn1" value="Submit" onclick="submit()" />
+
+		<script>
+		function submit() {
+			const container = document.getElementById("somediv");
+			const text1 = document.getElementById("tb1");
+			const text2 = document.getElementById("tb2");
+			container.innerHTML = "Yay " + text1.value +  " " + text2.value;
+		}
+		</script>
+	</body>
+</html>
