@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch-playground",
+  "version": "1.0.0",
+  "description": "Small playground for doing stuff with nightwatchjs functional testing and CI",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/florianm93/nightwatch-playground.git"
+  },
+  "author": "Florian Macherey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/florianm93/nightwatch-playground/issues"
+  },
+  "homepage": "https://gitlab.com/florianm93/nightwatch-playground#README"
+}
