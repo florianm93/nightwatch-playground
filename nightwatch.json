@@ -12,7 +12,7 @@
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.gecko.driver" : "3rdparty/geckodriver-darwin"
+      "webdriver.chrome.driver" : "3rdparty/chromedriver-darwin"
     }
   },
 
@@ -27,8 +27,7 @@
         "path" : ""
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
-		"marionette": true
+        "browserName": "chrome"
       }
     }
   }
