@@ -1,13 +1,15 @@
 module.exports = {
-  'Demo test Google' : function (browser) {
+  'Demo test with 2 inputs change a div' : function (browser) {
     browser
-      .url('http://www.google.com')
+      .url('http://127.0.0.1:8080/src')
       .waitForElementVisible('body', 1000)
-      .setValue('input[type=text]', 'nightwatch')
-      .waitForElementVisible('button[name=btnG]', 1000)
-      .click('button[name=btnG]')
+      .assert.containsText('.somediv', 'Welcome')
+      .setValue('#tb1', 'Foo')
+      .setValue('#tb2', 'Bar')
+      .click('#btn1')
       .pause(1000)
-      .assert.containsText('#main', 'Night Watch')
+      .assert.visible('.somediv')
+      .assert.containsText('.somediv', 'Yay Foo Bar')
       .end();
   }
 };
