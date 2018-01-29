@@ -3,5 +3,5 @@ node_js:
   - "stable"
 script:
   - npm install
-  - ./node_modules/.bin/nightwatch
+  - ./run_tests.sh
 
