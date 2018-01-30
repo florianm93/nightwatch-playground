@@ -3,7 +3,7 @@ let php;
 
 module.exports = {
   before: (browser, done) => {
-    php = execFile('php', ['127.0.0.1:8080', '-t', '.']);
+    php = execFile('php', ['-S', '127.0.0.1:8080', '-t', '.']);
     setTimeout(done, 200)
   },
   after: (browser, done) => {
