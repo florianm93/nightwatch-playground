@@ -3,7 +3,7 @@ language: node_js
 node_js:
   - "stable"
 install:
-  - sudo apt-ge update -qq
+  - sudo apt-get update -qq
   - sudo apt-get install -qq chromedriver
   - npm install
 
