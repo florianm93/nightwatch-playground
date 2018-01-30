@@ -2,7 +2,10 @@ sudo: required
 language: node_js
 node_js:
   - "stable"
-script:
+install:
+  - apt-get install -y chromedriver
   - npm install
-  - ./run_tests.sh
+
+script:
+  - ./node_modules/.bin/nightwatch
 

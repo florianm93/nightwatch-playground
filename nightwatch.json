@@ -12,7 +12,7 @@
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "3rdparty/chromedriver-darwin"
+      "webdriver.chrome.driver" : "/usr/bin/chromedriver"
     }
   },
 
