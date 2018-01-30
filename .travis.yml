@@ -1,8 +1,18 @@
+os: linux
+dist: trusty
 sudo: required
 language: node_js
 node_js:
   - "stable"
-script:
+install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq unzip
+  - wget -N http://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - chmod u+x chromedriver
+  - sudo mv -f chromedriver /usr/bin/chromedriver
   - npm install
-  - ./run_tests.sh
+
+script:
+  - ./node_modules/.bin/nightwatch
 
