@@ -3,7 +3,7 @@ dist: trusty
 sudo: required
 language: node_js
 node_js:
-  - "lts"
+  - "stable"
 install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq unzip
