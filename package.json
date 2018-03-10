@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/florianm93/nightwatch-playground.git"
+    "url": "git@github.com:florianm93/nightwatch-playground.git"
   },
   "author": "Florian Macherey",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/florianm93/nightwatch-playground/issues"
+    "url": "https://github.com/florianm93/nightwatch-playground/issues"
   },
-  "homepage": "https://gitlab.com/florianm93/nightwatch-playground#README",
+  "homepage": "https://github.com/florianm93/nightwatch-playground/blob/master/README.md",
   "devDependencies": {
     "chromedriver": "^2.36.0",
     "nightwatch": "^0.9.19"
