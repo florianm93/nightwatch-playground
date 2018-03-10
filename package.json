@@ -17,6 +17,7 @@
   },
   "homepage": "https://gitlab.com/florianm93/nightwatch-playground#README",
   "devDependencies": {
+    "chromedriver": "^2.36.0",
     "nightwatch": "^0.9.19"
   }
 }
